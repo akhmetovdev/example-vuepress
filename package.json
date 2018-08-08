@@ -1,0 +1,29 @@
+{
+  "name": "example-vuepress",
+  "version": "1.0.0",
+  "description": "example-vuepress",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:dev",
+    "start:dev": "vuepress dev app",
+    "build": "npm run build:prod",
+    "build:prod": "vuepress build app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhmetovdev/example-vuepress.git"
+  },
+  "author": {
+    "name": "akhmetovdev",
+    "email": "akhmetovdev@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akhmetovdev/example-vuepress/issues"
+  },
+  "homepage": "https://github.com/akhmetovdev/example-vuepress#readme",
+  "dependencies": {
+    "vuepress": "^0.14.0"
+  }
+}
